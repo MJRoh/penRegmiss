@@ -41,6 +41,15 @@ In cohen.kappa1(x, w=w, n.obs=n.obs, alpha=alpha, levels=levels): upper or lower
 
 * `KCYPS_code.R`
 
+## License 
+
+SPDX-FileCopyrightText: © 2021 Minjeong Rho <minjeong019@gmail.com> & Jin Eun Yoo <jineun.yoo@gmail.com>
+
+SPDX-License-Identifier: BSD-3-Clause
+
+## Related article
+Yoo, J. E.,& Rho, M. (accepted). Large-scale survey data analysis with penalized regression: A Monte Carlo simulation on missing categorical predictors. Multivariate Behavioral Research. 
+
 
 
 
