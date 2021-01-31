@@ -36,11 +36,17 @@ In cohen.kappa1(x, w=w, n.obs=n.obs, alpha=alpha, levels=levels): upper or lower
 
 ## Real Data(KCYPS) Study
 
-* `study2_pen.RData`
+* `kcyps_pen.RData`
 
-* `stud2_rf.RData`
+This is data for real data analysis with penalized regression. The original KCYPS dataset is available at https://www.nypi.re.kr/archive/mps.
+
+* `kcyps_rf.RData`
+
+This is data for real data analysis with randomforest. The original KCYPS dataset is available at https://www.nypi.re.kr/archive/mps.
 
 * `KCYPS_code.R`
+
+This R file includes code that applies the penalty regression used in the simulation and randomforest to real data.
 
 ## License 
 
