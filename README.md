@@ -6,17 +6,18 @@ Jin Eun Yoo & Minjeong Rho
 
 ## Description
 
-The R code reproduces a simulation study in an article to appear in Multivariate Behavioral Research, entitled “Large-Scale Survey Data Analysis with Penalized Regression: A Monte Carlo Simulation on Missing Categorical Predictors.” The code contains data generation, deletion, imputation, and analysis. Specifically, it focuses on penalized regression in the context of incomplete social science large-scale data analysis. The R functions that we programmed are as follows: 
+The R code reproduces a simulation study in an article to appear in Multivariate Behavioral Research, entitled “Large-Scale Survey Data Analysis with Penalized Regression: A Monte Carlo Simulation on Missing Categorical Predictors.” The code contains data generation, deletion, imputation, and analysis. Specifically, it focuses on penalized regression in the context of incomplete social science large-scale data analysis. 
 
 ## Simulation Study
 
 * `penRegmiss.R`  
 
+This R file includes data generating, data deletion and imputation, and running penelized regression. The R functions that we programmed are as follows: 
+
 ```R
 gen_dt() # data generation, deletion (MAR, MNAR), and imputation (listwise deletion, k-NN, EM)
 run_pen() # analysis (group LASSO, group Enet, group Mnet)
 ```
-
 For more detailed information, please refer to the article in Multivariate Behavioral Research. 
 
 * Note
