@@ -2,7 +2,7 @@
 
 # Large-Scale Survey Data Analysis with Penalized Regression: A Monte Carlo Simulation on Missing Categorical Predictors
 
-Jin Eun Yoo & Minjeong Rho
+Minjeong Rho & Jin Eun Yoo
 
 ## Description
 
