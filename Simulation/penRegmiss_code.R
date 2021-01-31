@@ -234,8 +234,7 @@ gen_dt <- function(seednum) {
   # em imputation
   mar_e_dt <- data.frame(schid, mar_dt2, var_y)
   ordvars <- colnames(mar_dt)[c(1:295)] # Likert, Poisson, and Bernoulli variables  
-  grp_vars <- colnames(mar_dt)[296:300] # categorical variables
-  
+    
   em1 <-
     Amelia::amelia(
       mar_e_dt,
@@ -302,7 +301,7 @@ gen_dt <- function(seednum) {
   # em imputation
   mn_e_dt <- data.frame(schid, mnar_dt, var_y)
   ordvars <- colnames(mnar_dt)[c(1:291)] # Likert, Poisson, and Bernoulli variables
-  grp_vars <- colnames(mar_dt)[292:296] # categorical variables #? I've changed the numbers to 292 and 296. 
+
   em1 <-
     Amelia::amelia(
       mn_e_dt,
