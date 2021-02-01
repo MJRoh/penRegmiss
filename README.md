@@ -39,7 +39,7 @@ In cohen.kappa1(x, w=w, n.obs=n.obs, alpha=alpha, levels=levels): upper or lower
 
 ### Description
 
-Study II analyzes KCYPS (Korea Children and Youth Panel Survey). The original KCYPS dataset can be found at https://www.nypi.re.kr/archive/mps. The R datasets for random forest and penalized regression are kcyps_rf.RData and kcyps_pen.RData. The R code for Study II is KCYPS_code.R. 
+Study II analyzes KCYPS (Korea Children and Youth Panel Survey). The original KCYPS dataset can be found at https://www.nypi.re.kr/archive/mps. The R datasets for random forest and penalized regression are kcyps_rf.RData and kcyps_pen.RData, respectively. The R code for Study II is KCYPS_code.R. 
 
 * `kcyps_pen.RData`
 * `kcyps_rf.RData`
