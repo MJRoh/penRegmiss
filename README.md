@@ -19,11 +19,11 @@ run_pen() # analysis (group LASSO, group Enet, group Mnet)
 ```
 For more detailed information, please refer to the article in Multivariate Behavioral Research. 
 
-* Note
+### Note
 
 We recommend you run the code in a high-speed desktop, as it takes more than 10 hours for a single run. 
 
-* Warning messages
+### Warning messages
 
 When obtaining kappa, you will encounter the following warning messages in the condition combinations including listwise deletion. The warning messages result from large standard deviations of kappa in the conditions of listwise deletion. You can simply dismiss them; the descriptive statistics of prediction measures including kappa are reported in each condition combination of the Monte Carlo simulation (refer to Table 4 of the related article).
 
@@ -47,12 +47,12 @@ Study II analyzes KCYPS (Korea Children and Youth Panel Study). The original KCY
 
 
 ## License 
-# License # 
 SPDX-FileCopyrightText: © 2021 Minjeong Rho <minjeong019@gmail.com> & Jin Eun Yoo <jineun.yoo@gmail.com>
 
 SPDX-License-Identifier: BSD-3-Clause
 
-# Related article #
+
+## Related article #
 Yoo, J. E., & Rho, M. (accepted). Large-scale survey data analysis with penalized regression: A Monte Carlo simulation on missing categorical predictors. Multivariate Behavioral Research. 
 
 
