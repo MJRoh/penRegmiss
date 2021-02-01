@@ -7,7 +7,7 @@ Dr. Minjeong Rho minjeong019@gmail.com
 
 ## Simulation (Study I)
 
-# Description
+### Description
 
 * `penRegmiss.R`  
 
@@ -35,7 +35,7 @@ In cohen.kappa1(x, w=w, n.obs=n.obs, alpha=alpha, levels=levels): upper or lower
 
 ## Real Data Analysis (Study II) 
 
-# Description
+### Description
 
 * `kcyps_pen.RData`
 * `kcyps_rf.RData`
